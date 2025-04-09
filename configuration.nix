@@ -98,8 +98,6 @@
 
   fonts.packages = with pkgs; [
   (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
-  fira-code
-  droid-sans-mono
 ];
 
   # Install firefox.
