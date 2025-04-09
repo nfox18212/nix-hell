@@ -96,6 +96,12 @@
 
   users.defaultUserShell = pkgs.zsh;
 
+  fonts.packages = with pkgs; [
+  (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
+  fira-code
+  droid-sans-mono
+];
+
   # Install firefox.
   programs.firefox.enable = true;
 
@@ -148,6 +154,7 @@
   file
   rustup
   krita
+  bat-extras.batman
   ];
 
   programs.steam = {
