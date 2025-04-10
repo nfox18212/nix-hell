@@ -156,7 +156,7 @@
   lsb-release
   kdePackages.kcalc
   octave
-  ncurses-abi5-compat
+  ncurses5
   ];
 
   programs.steam = {
